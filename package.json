@@ -1,9 +1,6 @@
 {
 	"name": "newproj",
 	"version": "0.0.1",
-	"main": "dist/index.js",
-	"typings": "dist/index.d.ts",
-	"module": "dist/Button.svelte",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
