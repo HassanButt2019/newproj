@@ -13,7 +13,7 @@
 		"format": "prettier --write ."
 	},
 	"exports": {
-		"./Button.svelte": {
+		".": {
 			"types": "./dist/Button.svelte.d.ts",
 			"svelte": "./dist/Button.svelte"
 		}
@@ -48,5 +48,8 @@
 	},
 	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"newproj": "github:HassanButt2019/newproj"
+	}
 }

@@ -1,5 +1,5 @@
 <script>
-    import Button from '$lib/Button.svelte';
+    import Button from 'newproj/Button.svelte';
     function handleClick() {
         console.log('clicked');
     }
