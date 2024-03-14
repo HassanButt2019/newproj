@@ -16,7 +16,10 @@
 		"format": "prettier --write ."
 	},
 	"exports": {
-		".": "./dist/index.js"
+		".": {
+			"types": "./dist/Button.svelte.d.ts",
+			"svelte": "./dist/Button.svelte"
+		}
 	},
 	"files": [
 		"dist",
